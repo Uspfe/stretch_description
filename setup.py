@@ -24,6 +24,7 @@ setup(
         ('share/' + package_name + '/launch', glob('launch/*.launch.py')),
         ('share/' + package_name + '/meshes', glob('meshes/*')),
         ('share/' + package_name + '/urdf', glob('urdf/*.xacro')),
+        ('share/' + package_name + '/urdf', glob('urdf/*.urdf')),
         ('share/' + package_name + '/rviz', glob('rviz/*')),
     ],
 )
